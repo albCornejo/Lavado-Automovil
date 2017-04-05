@@ -1,0 +1,133 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.duoc.lavadovehiculo1.ModPrecioAutoFragment"
+    android:background="@drawable/lavado_de_autos_9">
+
+    <TextView
+        android:text="Modificar Precios Auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textView11"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/letrasLBL" />
+
+    <TextView
+        android:text="Valor Aspirado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblValorLavado"
+        android:layout_alignStart="@+id/textView13"
+        android:id="@+id/textView14"
+        android:textColor="@color/letrasLBL" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView14"
+        android:layout_alignEnd="@+id/lblValorLavado"
+        android:id="@+id/txtValorAspirado"
+        android:hint="Ingrese Valor"
+        android:background="@color/cajaTexto" />
+
+    <TextView
+        android:text="Valor Encerado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtValorAspirado"
+        android:layout_alignStart="@+id/textView14"
+        android:id="@+id/textView15"
+        android:textColor="@color/letrasLBL" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView15"
+        android:layout_alignEnd="@+id/txtValorAspirado"
+        android:id="@+id/txtValorEncerado"
+        android:hint="Ingrese Valor"
+        android:background="@color/cajaTexto" />
+
+    <TextView
+        android:text="Valor Renovacion Neumaticos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtValorEncerado"
+        android:layout_alignStart="@+id/textView15"
+        android:id="@+id/textView16"
+        android:textColor="@color/letrasLBL" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView16"
+        android:layout_alignEnd="@+id/txtValorEncerado"
+        android:id="@+id/txtValorRenovNeumaticos"
+        android:hint="Ingrese Valor"
+        android:background="@color/cajaTexto" />
+
+    <TextView
+        android:text="Valor Lavado Interior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtValorRenovNeumaticos"
+        android:layout_alignStart="@+id/textView16"
+        android:id="@+id/textView17"
+        android:textColor="@color/colorBlanco" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:id="@+id/txtValorLavadoInt"
+        android:hint="Ingrese Valor"
+        android:background="@color/cajaTexto" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/lblValorLavado"
+        android:hint="Ingrese Valor"
+        android:background="@color/cajaTexto"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:text="Valor Lavado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:id="@+id/textView13"
+        android:textColor="@color/letrasLBL"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp" />
+
+    <Button
+        android:text="Modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnModifPreciosA"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/holo_green_light"
+        android:elevation="0dp"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

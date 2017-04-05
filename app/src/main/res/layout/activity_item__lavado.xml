@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item__lavado"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background="@color/colorBlanco">
+
+<!--    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="Tipo Vehiculo"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTipoV"
+        android:text="Tipo Vehiculo"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPatente"
+        android:text="Patente"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtValorLavado"
+        android:text="Valor Lavado"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFechaLavado"
+        android:text="Fecha Lavado"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/editText" />
+
+</LinearLayout>

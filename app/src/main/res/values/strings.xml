@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LavadoVehiculo1</string>
+
+    <string-array name="TipoVeiculo">
+        <item>Automovil</item>
+        <item>Camioneta</item>
+    </string-array>
+
+
+</resources>

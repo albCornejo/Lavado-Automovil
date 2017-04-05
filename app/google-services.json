@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "267693444415",
+    "firebase_url": "https://lavaauto-c9dd3.firebaseio.com",
+    "project_id": "lavaauto-c9dd3",
+    "storage_bucket": "lavaauto-c9dd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267693444415:android:288fe4ceab3221ba",
+        "android_client_info": {
+          "package_name": "cl.duoc.lavadovehiculo2firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267693444415-b7ind14f93ll39t038qug9v8dg9s064s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Cf1hBduFX2tyEdRix9bhUQ1OjNU15y8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267693444415:android:0aa8475dba54ba7d",
+        "android_client_info": {
+          "package_name": "cl.duoc.lavadovehiculo1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267693444415-365m4i4j0i0cqmbapf0s8dg2bhpg8s7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.duoc.lavadovehiculo1",
+            "certificate_hash": "3D670862B81F63D92EC963EADACA2B1E3A23CA03"
+          }
+        },
+        {
+          "client_id": "267693444415-b7ind14f93ll39t038qug9v8dg9s064s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Cf1hBduFX2tyEdRix9bhUQ1OjNU15y8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267693444415-b7ind14f93ll39t038qug9v8dg9s064s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

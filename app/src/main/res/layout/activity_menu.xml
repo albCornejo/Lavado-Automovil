@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cl.duoc.lavadovehiculo1.MenuActivity"
+    android:background="@drawable/lavado_de_autos_9">
+
+    <Button
+        android:text="Agregar Lavado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="103dp"
+        android:id="@+id/btnAgregarLavado" />
+
+    <Button
+        android:text="Proximamente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAgregarLavado"
+        android:layout_alignStart="@+id/btnAgregarLavado"
+        android:layout_marginTop="63dp"
+        android:id="@+id/btnModificarPrecios" />
+
+    <TextView
+        android:text="Cerrar Sesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/lblCerrarSesion"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="normal|italic"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lblEmail"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|italic" />
+
+    <Button
+        android:text="Listar Lavados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:id="@+id/btnListarLavados"
+        android:layout_below="@+id/btnModificarPrecios"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
